@@ -13,6 +13,8 @@
 		3F9B0FC021FD062C00B16D04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B0FBF21FD062C00B16D04 /* Assets.xcassets */; };
 		3F9B0FC321FD062C00B16D04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B0FC121FD062C00B16D04 /* LaunchScreen.storyboard */; };
 		3F9B0FC621FD062C00B16D04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B0FC521FD062C00B16D04 /* main.m */; };
+		3F9B0FCF21FD072000B16D04 /* BNRQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B0FCD21FD072000B16D04 /* BNRQuizViewController.m */; };
+		3F9B0FD021FD072000B16D04 /* BNRQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B0FCE21FD072000B16D04 /* BNRQuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		3F9B0FC221FD062C00B16D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F9B0FC421FD062C00B16D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F9B0FC521FD062C00B16D04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F9B0FCC21FD072000B16D04 /* BNRQuizViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRQuizViewController.h; sourceTree = "<group>"; };
+		3F9B0FCD21FD072000B16D04 /* BNRQuizViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRQuizViewController.m; sourceTree = "<group>"; };
+		3F9B0FCE21FD072000B16D04 /* BNRQuizViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BNRQuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,9 @@
 				3F9B0FB621FD062700B16D04 /* AppDelegate.h */,
 				3F9B0FB721FD062700B16D04 /* AppDelegate.m */,
 				3F9B0FB921FD062700B16D04 /* ViewController.h */,
+				3F9B0FCC21FD072000B16D04 /* BNRQuizViewController.h */,
+				3F9B0FCD21FD072000B16D04 /* BNRQuizViewController.m */,
+				3F9B0FCE21FD072000B16D04 /* BNRQuizViewController.xib */,
 				3F9B0FBA21FD062700B16D04 /* ViewController.m */,
 				3F9B0FBC21FD062700B16D04 /* Main.storyboard */,
 				3F9B0FBF21FD062C00B16D04 /* Assets.xcassets */,
@@ -128,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9B0FD021FD072000B16D04 /* BNRQuizViewController.xib in Resources */,
 				3F9B0FC321FD062C00B16D04 /* LaunchScreen.storyboard in Resources */,
 				3F9B0FC021FD062C00B16D04 /* Assets.xcassets in Resources */,
 				3F9B0FBE21FD062700B16D04 /* Main.storyboard in Resources */,
@@ -141,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9B0FCF21FD072000B16D04 /* BNRQuizViewController.m in Sources */,
 				3F9B0FBB21FD062700B16D04 /* ViewController.m in Sources */,
 				3F9B0FC621FD062C00B16D04 /* main.m in Sources */,
 				3F9B0FB821FD062700B16D04 /* AppDelegate.m in Sources */,
